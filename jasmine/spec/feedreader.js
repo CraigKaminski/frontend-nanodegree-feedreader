@@ -87,6 +87,7 @@ $(function() {
 
         it('are greater than zero', function(done) {
             expect($('.feed > .entry-link').length).toBeGreaterThan(0);
+            done();
         });
     });
 
@@ -128,8 +129,10 @@ $(function() {
         */
         it('causes content to change', function(done) {
             expect(originalFeeds).not.toEqual(newFeeds);
+            done();
         });
-        
+
+
         afterAll(function() {
             loadFeed(0);
         });
