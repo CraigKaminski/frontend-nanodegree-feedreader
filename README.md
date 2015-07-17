@@ -6,5 +6,5 @@ test written in Jasmine. These tests are the focus of this particular project.
 
 ## How to run the project?
 
-Download all files in this repository and open index.html file in a web browser to see
-the output of the tests.
+Download all files in this repository and open the index.html file in a web browser to
+see the output of the tests.
