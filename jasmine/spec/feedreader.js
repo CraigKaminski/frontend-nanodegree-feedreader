@@ -85,9 +85,8 @@ $(function() {
         });
 
 
-        it('are greater than zero', function(done) {
+        it('are greater than zero', function() {
             expect($('.feed > .entry-link').length).toBeGreaterThan(0);
-            done();
         });
     });
 
@@ -127,9 +126,8 @@ $(function() {
         /* We then ensure a different list of entries are present
          * between the two calls to loadFeed.
         */
-        it('causes content to change', function(done) {
+        it('causes content to change', function() {
             expect(originalFeeds).not.toEqual(newFeeds);
-            done();
         });
 
 
